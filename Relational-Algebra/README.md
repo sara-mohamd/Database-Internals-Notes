@@ -98,7 +98,9 @@ Difference (−)
 -  لازم تعمل  Difference بين نفس attributes
 `Relation1 - Relation2`
 
-![[Pasted image 20241009021253.png]]
+
+![difference](./images/diff.png)
+
 
 ***
 
