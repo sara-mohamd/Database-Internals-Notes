@@ -76,9 +76,9 @@ Union ( **∪** )
 - طبعا مفيش row هيكون متكرر في الناتج
 - لازم تعمل  Union بين نفس attributes
 `Relation1∪Relation2`
-![[Pasted image 20241009020931.png]]
 
-![[Pasted image 20241009021159.png]]
+![](./images/union.png)
+![](./images/uiono__.png)
 
 ***
 
@@ -88,7 +88,7 @@ Intersection ( **∩** )
 - لازم تعمل  Intersection بين نفس attributes
 `Relation1∩Relation2`
 `R ∩ S` 
-![[Pasted image 20241009020705.png]]
+![](./images/intersection.png)
 
 ***
 
@@ -108,7 +108,7 @@ Product ( X )
 - الناتج عبارة عن كل combination الممكنة من الجدولين المضروبين في بعض
 - طبعا مفيش row هيكون متكرر في الناتج 
 `Relation1 x Relation2`
-![[Pasted image 20241009020317.png]] 
+![](./images/product.png)
 
 ***
 
@@ -117,7 +117,6 @@ Inner Join (⨝)
 - تعمل combination بين الجداول بناءا علي attributes مشتركة بين الجداول دي
 - طبعا مفيش row هيكون متكرر في الناتج
 `Relation1 ⨝ Relation2`
-![[Pasted image 20241009022331.png]]
+![](./images/join.png)
 
 ***
-
