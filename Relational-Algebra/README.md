@@ -14,8 +14,11 @@ There are different kinds of databases:
 ***
 ### Relational Database Operations
 Select ( σ ) :
- -  هختار جدول  من schema بناءاً علي condition محددة
-- لاحظ إن الناتج عبارة عن جدول بردو م Columns معينة لا.
+ -  طباعة جدول  من schema بناءاً علي conditions محددة
+- الناتج عبارة عن الجدول بردو وليس Columns معينة لا.
+
+
+**syntax**: **`σcondition​(Relation)`**
 
 | EmployeeID | Name    | Department | Salary |
 |------------|---------|------------|--------|
@@ -24,9 +27,13 @@ Select ( σ ) :
 | 3          | Charlie | IT         | 70000  |
 | 4          | David   | Sales      | 55000  |
 
-**`σcondition​(Relation)`**
-`σDepartment = ’Sales’​(Employee)`
-لاحظ هنا أنا هعمل select لجدول الـموظفين اللي شغالين في قسم المبيعات فقط
+`σDepartment = ’Sales’​(Employee)` = 
+| EmployeeID | Name    | Department | Salary |
+| ---------- | ------- | ---------- | ------ |
+| 1          | Alice   | Sales      | 60000  |
+
+- لاحظ هنا أنا هعمل select لجدول الـموظفين اللي شغالين في قسم المبيعات فقط 
+- طبعا مفيش row هيكون متكرر في الناتج
 
 ***
 
