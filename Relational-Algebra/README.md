@@ -34,6 +34,7 @@ Rename ( ρ )
 - بتغير أسم table أو attributes في output
 **syntax**
 `ρNewRelationName(NewColumn1,NewColumn2,...)​(Relation)`
+
 **Example**
 
 | EmployeeID | Name    | Department | Salary |
