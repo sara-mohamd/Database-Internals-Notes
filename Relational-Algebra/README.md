@@ -65,7 +65,7 @@ Rename ( ρ )
  ***
  
  Projection ( **π** )
- - طباعة Columns معينة من الجدول بدون تكرار للقيم المطبوعة في نفس record.
+ - طباعة Columns معينة من الجدول بدون تكرار للقيم المطبوعة في نفس record.  
  **syntax**:
  `π(Column1, Column2, ...)(Relation)`
   
