@@ -1,6 +1,6 @@
 ## Database Internals Course Notes
 This repository contains comprehensive notes covering the core concepts
-- [Relational DB operations]()
+- [Relational DB operations](./Relational-Algebra/README.md)
 
 
 
