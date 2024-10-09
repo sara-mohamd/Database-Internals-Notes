@@ -44,6 +44,7 @@ Rename ( ρ )
 | 2          | Bob     | HR         | 50000  |
 | 3          | Charlie | IT         | 70000  |
 | 4          | David   | Sales      | 55000  |
+
 `ρStaff(ID,Name,Department)​(Employee)` = 
 
 | EmployeeID | Name    | Department | Salary |
