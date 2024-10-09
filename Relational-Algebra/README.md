@@ -66,7 +66,8 @@ Rename ( ρ )
  ***
  
  Projection ( **π** )
- - بتختار Columns معينة من الجدول هي تكون output
+ - طباعة Columns معينة من الجدول بدون تكرار للقيم المطبوعة في نفس record.
+ **syntax**:
  `π(Column1, Column2, ...)(Relation)`
   
 | EmployeeID | Name    | Department | Salary |
@@ -76,17 +77,23 @@ Rename ( ρ )
 | 3          | Charlie | IT         | 70000  |
 | 4          | David   | Sales      | 55000  |
 
-`πName, Department​(Employee)`
-`πSalary​(σDepartment=′Sales′​(Employee))
- - لاحظ نقطة هنا إن Relational database م بتقبل بتكرار القيم يعني أي؟
-   يعني ناتج Column اللي هتطلع هيحذف منه أي duplicates
-    (أي two records شبه بعض تمامًا).
-- result of second equation:
+1- `πName, Department​(Employee)`
+
+| EmployeeID | Name    | Department |
+| ---------- | ------- | ---------- |
+| 1          | Alice   | Sales      |
+| 2          | Bob     | Sales      |
+| 3          | Charlie | IT         |
+| 4          | David   | Sales      |
+
+2- `πSalary​(σDepartment=′Sales′​(Employee)) = 
 
 | Salary |
 | ------ |
 | 60000  |
-
+- لاحظ نقطة هنا إن Relational database م بتقبل بتكرار القيم يعني أي؟
+   يعني ناتج Column اللي هتطلع هيحذف منه أي duplicates
+    (أي two records شبه بعض تمامًا).
 ***
 
 Union ( **∪** )
