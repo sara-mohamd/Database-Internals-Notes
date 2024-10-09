@@ -30,8 +30,11 @@ Select ( σ ) :
 
 ***
 
- Rename ( ρ )
+Rename ( ρ )
 - بتغير أسم table أو attributes في output
+**syntax**
+`ρNewRelationName(NewColumn1,NewColumn2,...)​(Relation)`
+**Example**
 
 | EmployeeID | Name    | Department | Salary |
 |------------|---------|------------|--------|
@@ -39,12 +42,17 @@ Select ( σ ) :
 | 2          | Bob     | HR         | 50000  |
 | 3          | Charlie | IT         | 70000  |
 | 4          | David   | Sales      | 55000  |
+`ρStaff(ID,Name,Department)​(Employee)` = 
 
-`ρNewRelationName(NewColumn1,NewColumn2,...)​(Relation)`
-`ρStaff(ID,Name,Department)​(Employee)`
-`ρEmployee(ID,Name,Department)​(Employee)`
+| EmployeeID | Name    | Department | Salary |
+|------------|---------|------------|--------|
+| 1          | Alice   | Sales      | 60000  |
+| 2          | Bob     | HR         | 50000  |
+| 3          | Charlie | IT         | 70000  |
+| 4          | David   | Sales      | 55000  |'
 
-2- keep name or not as you want.
+- The result is that the relation **Employee** is now referred to as **Staff**.
+
  ***
  
  Projection ( **π** )
